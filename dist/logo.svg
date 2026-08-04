@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" fill="none">
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="40" rx="8" fill="#071021" />
+  <g transform="translate(8,6)">
+    <circle cx="14" cy="14" r="14" fill="url(#lg)" />
+    <text x="14" y="19" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="12" font-weight="700">SS</text>
+    <text x="40" y="19" fill="#C7B3FF" font-family="Inter, sans-serif" font-size="13" font-weight="700">Subir</text>
+    <text x="88" y="19" fill="#7C3AED" font-family="Inter, sans-serif" font-size="13" font-weight="700">Sarker</text>
+  </g>
+</svg>

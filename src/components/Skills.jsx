@@ -15,7 +15,7 @@ function SkillCard({cat}){
 
 export default function Skills(){
   return (
-    <section id="skills" className="py-16">
+    <section id="Skills" className="py-16">
       <div className="container">
         <h2 className="text-2xl font-semibold gradient-text">Skills</h2>
         <div className="mt-6 grid md:grid-cols-3 gap-4">

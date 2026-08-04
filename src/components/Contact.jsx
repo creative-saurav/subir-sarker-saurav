@@ -3,7 +3,7 @@ import { siteData } from '../data/content'
 
 export default function Contact(){
   return (
-    <section id="contact" className="py-16">
+    <section id="Contact" className="py-16">
       <div className="container">
         <h2 className="text-2xl font-semibold gradient-text">Contact</h2>
         <div className="mt-6 grid md:grid-cols-2 gap-6">
@@ -15,7 +15,12 @@ export default function Contact(){
           </form>
           <div className="p-6">
             <h3 className="font-semibold">Email</h3>
-            <p className="text-slate-300">{siteData.email}</p>
+           <a
+                href={`mailto:${siteData.email}`}
+                className="text-slate-300 hover:text-primary transition"
+                >
+                {siteData.email}
+                </a>
             <h3 className="font-semibold mt-4">Location</h3>
             <p className="text-slate-300">{siteData.location}</p>
           </div>

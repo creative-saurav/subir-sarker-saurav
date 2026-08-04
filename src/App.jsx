@@ -28,7 +28,7 @@ export default function App(){
         {/* <Testimonials /> */}
         {/* <TechStack /> */}
         <Contact />
-        <FAQ />
+        {/* <FAQ /> */}
       </main>
       <Footer />
     </div>

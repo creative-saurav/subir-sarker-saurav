@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Services(){
   return (
-    <section id="services" className="py-16">
+    <section id="Services" className="py-16">
       <div className="container">
         <h2 className="text-2xl font-semibold gradient-text">Services</h2>
         <div className="mt-6 grid md:grid-cols-3 gap-4">

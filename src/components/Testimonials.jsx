@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Testimonials(){
   return (
-    <section id="testimonials" className="py-16">
+    <section id="Testimonials" className="py-16">
       <div className="container">
         <h2 className="text-2xl font-semibold gradient-text">Testimonials</h2>
         <motion.div className="mt-6 grid md:grid-cols-2 gap-4">

@@ -3,7 +3,7 @@ import { achievements } from '../data/content'
 
 export default function Achievements(){
   return (
-    <section id="achievements" className="py-12">
+    <section id="Achievements" className="py-12">
       <div className="container">
         <div className="grid grid-cols-3 gap-4">
           {achievements.map(a => (

@@ -26,7 +26,7 @@ const icons = [
 
 export default function TechStack(){
   return (
-    <section id="tech" className="py-12">
+    <section id="Tech" className="py-12">
       <div className="container overflow-hidden">
         <h3 className="text-xl font-semibold gradient-text">Tech Stack</h3>
         <div className="mt-4 flex gap-4 items-center">

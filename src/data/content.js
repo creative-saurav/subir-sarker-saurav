@@ -1,12 +1,15 @@
+import { FaDownload, FaBriefcase } from "react-icons/fa";
+
+
 export const siteData = {
-  name: 'Subir Sarker',
+  name: 'Subir Sarker Saurav',
   title: 'Full Stack Developer | Laravel & MERN Stack Developer',
-  location: 'Bangladesh',
+  location: 'Road 6 , Pallabi,  Mirpur 12 , Dhaka 1216, Bangladesh',
   experience: '2+ Years',
-  email: 'hello@subirsarker.dev',
+  email: 'subirsarkar90283@gmail.com',
   resume: '/resume.pdf',
   social: {
-    github: 'https://github.com/yourusername',
+    github: 'https://github.com/creative-saurav',
     linkedin: 'https://linkedin.com/in/yourprofile',
     twitter: 'https://twitter.com/yourhandle'
   }
@@ -17,8 +20,8 @@ export const hero = {
     'I build modern, scalable, and user-friendly web applications using Laravel, React, and modern frontend technologies.',
 
   ctas: [
-    { label: 'Download Resume', href: '/resume.pdf' },
-    { label: 'Hire Me', href: 'http://www.fiverr.com/creative_saurav/',  target: '_blank'},
+    { label: 'Download Resume', href: '/resume.pdf' ,  icon: FaDownload, },
+    { label: 'Hire Me ', href: 'http://www.fiverr.com/creative_saurav/',  target: '_blank', icon: FaBriefcase,},
     
   ],
 
@@ -81,7 +84,7 @@ export const experience = [
 ]
 export const projects = [
   {
-    image: '/public/atlas.png',
+    image: '/atlas.png',
     title: 'Atlas',
     short:
       'A Laravel-powered business directory and listing platform featuring advanced search, location-based discovery, bookings, subscriptions, and business management tools.',
@@ -91,7 +94,7 @@ export const projects = [
   },
 
   {
-    image: '/public/elevate.png',
+    image: '/elevate.png',
     title: 'Elevate',
     short:
       'A modern multi-vendor eCommerce platform with product management, secure checkout, order tracking, payment gateways, and vendor management features.',

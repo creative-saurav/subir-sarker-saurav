@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Experience(){
   return (
-    <section id="experience" className="py-16">
+    <section id="Experience" className="py-16">
       <div className="container">
         <h2 className="text-2xl font-semibold gradient-text">Experience</h2>
         <div className="mt-6">
