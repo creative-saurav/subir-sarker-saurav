@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #071021;
+}
+
+html,body,#root{height:100%}
+body{
+  @apply bg-gradient-to-b from-[#071021] via-[#091426] to-[#071021] text-slate-100 antialiased;
+  scroll-behavior:smooth;
+}
+
+.glass{
+  background: linear-gradient(90deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+}
+
+.avatar-placeholder{
+  width:120px;height:120px;border-radius:9999px;background:linear-gradient(135deg,#7c3aed,#4f46e5);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:2rem
+}
+
+.gradient-text{
+  background:linear-gradient(90deg,#fff 0%, #c7b3ff 50%, #a78bfa 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent
+}
+
+/* small helpers */
+.container{width:100%;max-width:1100px;margin-left:auto;margin-right:auto;padding-left:1rem;padding-right:1rem}
