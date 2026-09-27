@@ -21,6 +21,13 @@ export default function Contact(){
                 >
                 {siteData.email}
                 </a>
+            <h3 className="font-semibold mt-4">Phone</h3>
+           <a
+                href={`tel:${siteData.phone}`}
+                className="text-slate-300 hover:text-primary transition"
+                >
+                {siteData.phone}
+                </a>
             <h3 className="font-semibold mt-4">Location</h3>
             <p className="text-slate-300">{siteData.location}</p>
           </div>

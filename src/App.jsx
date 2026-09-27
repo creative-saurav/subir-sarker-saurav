@@ -12,6 +12,7 @@ import TechStack from './components/TechStack'
 import Contact from './components/Contact'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import Education from './components/Education'
 
 export default function App(){
   return (
@@ -21,10 +22,11 @@ export default function App(){
         <Hero />
         <About />
         <Skills />
-        <Services />
-        <Projects />
         <Experience />
-        <Achievements />
+        <Projects />
+        <Education />
+        <Services />
+        {/* <Achievements /> */}
         {/* <Testimonials /> */}
         {/* <TechStack /> */}
         <Contact />

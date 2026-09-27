@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 
 export default function Navbar() {
-  const links = ['Home','About','Skills','Projects','Experience','Contact']
+  const links = ['Home','About','Skills', 'Experience','Projects','Education','Contact']
   return (
     <nav className="fixed w-full z-40 top-4 px-4">
       <div className="container flex items-center justify-between backdrop-blur-xl bg-slate-900/60 rounded-full px-4 py-3 shadow-2xl">
