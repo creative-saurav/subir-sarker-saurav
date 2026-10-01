@@ -156,7 +156,7 @@ export const projects = [
       'Tailwind CSS',
       'DaisyUI',
     ],
-    live: 'https://zap-shift-e8a2f.web.app/',
+    live: 'https://wayline-delivery-e8a2f.web.app/',
   },
 
   {
